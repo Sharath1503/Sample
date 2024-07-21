@@ -1,0 +1,32 @@
+Project Description :
+
+This project is a simple portfolio website for showcasing personal information, experience, projects, and contact details. It is built with HTML and CSS, and includes links to various sections of the website. The website is designed to be visually appealing and easy to navigate.
+
+Files Description :
+
+1. index.html
+This is the main HTML file for the portfolio website. It contains the structure and content of the website, including various sections like the header, home, about, experience, projects, education, and contact.
+
+Header Section: Contains the navigation bar with links to different sections of the website.
+Home Section: Introduces the user with a brief introduction and buttons for hiring and viewing experiences.
+About Section: Provides detailed information about the user.
+Experience Section: Lists the user's work experience.
+Projects Section: Lists the projects completed by the user.
+Education Section: Provides the user's educational background.
+Contact Section: Contains a form for visitors to contact the user.
+Footer: Includes social media links and navigation links for quick access.
+
+2. style.css
+This file contains all the CSS styles used to style the HTML content in index.html. It includes styling for various elements such as the header, buttons, sections, and the footer.
+
+Global Styles: Applies general styles to all elements.
+Header Styles: Styles for the fixed header and navigation bar.
+Section Styles: Styles for different sections (home, about, experience, projects, education, contact).
+Button Styles: Styles for different buttons used throughout the website.
+Footer Styles: Styles for the footer, including social media links.
+
+3. 123.jpg
+This image file is used as the profile picture in the "Home" and "About" sections of the website.
+
+Fonts and Icons: The project uses 'Poppins' font from Google Fonts and icons from Boxicons.
+Responsive Design: The website is designed to be responsive and works well on different screen sizes.
