@@ -1,0 +1,31 @@
+Description
+The Task Management Tool is a user friendly web application tool that helps users keep track of their tasks in an organized manner. Categorizing tasks allows users to focus on specific types of tasks, while the ability to mark tasks as complete helps in tracking progress.
+
+Files Overview
+
+1. task.html
+This file contains the HTML structure of the Task Management Tool.
+
+Key Elements:
+Container: The main container that holds all the elements of the tool.
+Form: The form where users can input new tasks and select a category.
+Filter: A dropdown to filter tasks by category.
+Task List: An unordered list to display tasks.
+
+2. styles.css
+This file contains the CSS styling for the Task Management Tool.
+
+Key Styles:
+Body: Flexbox layout to center the container.
+Container: Styling for the main container, including background color, padding, and box shadow.
+Form Elements: Styling for the form elements such as input, select, and button.
+Task Items: Styling for individual task items, including completed tasks.
+
+3. scripts.js
+This file contains the JavaScript logic for the Task Management Tool.
+
+Key Functions:
+addTask: Handles adding new tasks to the task list.
+filterTasks: Filters tasks based on the selected category.
+Event Listeners: Listens for form submission and category filter changes.
+
