@@ -1,0 +1,58 @@
+Overview :
+This repository contains a simple Quiz Application built using HTML, CSS, and JavaScript. The application fetches questions from the Open Trivia Database API and presents them in a quiz format. Users can select the number of questions, category, difficulty, and time per question before starting the quiz. The app provides immediate feedback on answers and displays the final score at the end.
+
+File Descriptions
+quiz.html
+This file is the main HTML structure of the Quiz App. It includes the necessary links to the CSS and JavaScript files and defines the structure of the application, which includes:
+
+Start Screen: Allows the user to set the number of questions, category, difficulty, and time per question before starting the quiz.
+Quiz Screen: Displays the questions, answers, and a progress bar for the timer.
+End Screen: Shows the user's final score and an option to restart the quiz.
+
+quiz.js
+This JavaScript file contains the logic and functionality of the Quiz App, including:
+
+Fetching Questions: Retrieves quiz questions from the Open Trivia Database API based on user-selected criteria.
+Display Questions: Manages the display of questions and answers on the quiz screen.
+Timer: Implements a countdown timer for each question.
+Answer Selection: Allows users to select and submit answers, providing immediate feedback on correctness.
+Score Calculation: Tracks and displays the user's score at the end of the quiz.
+Restart Functionality: Allows users to restart the quiz from the end screen.
+
+styless.css
+This CSS file provides the styling for the Quiz App, including:
+
+Layout and Positioning: Ensures a responsive and user-friendly layout across different screen sizes.
+Typography: Defines font styles and sizes for various elements.
+Colors and Backgrounds: Applies a consistent color scheme and background styles.
+Button Styles: Styles the start, submit, next, and restart buttons.
+Animations and Transitions: Adds smooth transitions and animations for a better user experience.
+
+How It Works
+Start Screen:
+
+Users select the number of questions, category, difficulty, and time per question from dropdown menus.
+On clicking the "Start Quiz" button, the startQuiz function is triggered.
+Fetching Questions:
+
+The startQuiz function fetches questions from the Open Trivia Database API based on the user-selected criteria.
+A loading animation is displayed while the questions are being fetched.
+Display Questions:
+
+The first question is displayed along with multiple-choice answers.
+Users select an answer, which enables the "Submit" button.
+Timer:
+
+A countdown timer starts for each question. If the time runs out, the checkAnswer function is triggered automatically.
+Answer Selection:
+
+Users can select and submit an answer. The selected answer is checked for correctness, and feedback is provided immediately.
+Correct answers are highlighted in green, and incorrect answers in red.
+Next Question:
+
+After submitting an answer, the "Next" button appears, allowing users to proceed to the next question.
+The process repeats until all questions are answered.
+End Screen:
+
+After answering all questions, the end screen displays the user's final score.
+Users can click the "Restart Quiz" button to reload the page and start a new quiz.
