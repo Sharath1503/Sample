@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management Tool</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Enter new task" required>
+            <select id="task-category">
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+                <option value="other">Other</option>
+            </select>
+            <button type="submit">Add Task</button>
+        </form>
+        <div class="filter-container">
+            <label for="category-filter">Filter by category:</label>
+            <select id="category-filter">
+                <option value="all">All</option>
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
